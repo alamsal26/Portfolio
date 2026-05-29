@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anish Lamsal — Agricultural Engineer & Future Data Analyst</title>
+  <meta name="description" content="Portfolio of Anish Lamsal — Agricultural Engineer transitioning into Data Analytics. M.S. Data Analytics candidate at Binghamton University, Fall 2026.">
+  <meta name="keywords" content="Anish Lamsal, Agricultural Engineer, Data Analytics, Portfolio, Binghamton University, GIS, Python">
+  <meta name="author" content="Anish Lamsal">
+
+  <!-- Favicon (amber circle) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌾</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-brand">AnishLamsal</a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span id="themeIcon">☀️</span>
+        </button>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero section" id="home">
+    <div class="hero-content">
+      <img
+        src="assets/IMG_5011.jpeg"
+        alt="Anish Lamsal — Professional Portrait"
+        class="hero-avatar"
+        width="180"
+        height="180"
+      >
+      <h1 class="hero-greeting">
+        Hi, I'm <span class="highlight">Anish Lamsal</span>
+      </h1>
+      <p class="hero-subtitle">
+        I'm <span id="typewriterArticle">an</span> <span class="typewriter-text" id="typewriter"></span><span class="typewriter-cursor">|</span>
+      </p>
+      <p class="hero-tagline">Welcome to my personal space on the web.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-grid fade-in">
+        <div class="about-image">
+          <img src="assets/IMG_8202.jpeg" alt="Anish Lamsal" loading="lazy">
+        </div>
+        <div class="about-text">
+          <p>
+            Hello! I am Anish Lamsal, an Agricultural Engineer transitioning into the data analytics field as an M.S. Data Analytics student at Binghamton University starting Fall 2026. I blend field engineering expertise with technical data manipulation to optimize infrastructures, map geospatial terrain profiles, and reveal insights hidden within complex datasets.
+          </p>
+          <p>
+            My experience spans leading multi-ton infrastructure design installations for government ministries, supervising mechanized farming deployments, and executing specialized agricultural field research in remote rural areas. With a passion for sustainable agriculture and data-driven decision making, I bridge the gap between traditional engineering and modern analytics.
+          </p>
+          <p>
+            When I'm not analyzing field data or designing infrastructure systems, I'm passionate about GIS mapping, sustainable farming technologies, and exploring new analytical frameworks.
+          </p>
+          <a href="assets/Anish_Lamsal_Resume.pdf" class="btn btn-primary" download>
+            <span>📄</span> Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title fade-in">My Skills</h2>
+      <div class="skills-grid fade-in-children">
+
+        <div class="skill-card">
+          <span class="skill-icon">🐍</span>
+          <span class="skill-name">Python</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">🗄️</span>
+          <span class="skill-name">SQL</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">📊</span>
+          <span class="skill-name">Excel & Data Modeling</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">🌍</span>
+          <span class="skill-name">ArcGIS Mapping</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">📈</span>
+          <span class="skill-name">Tableau Visualization</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">📐</span>
+          <span class="skill-name">AutoCAD Design</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">🗺️</span>
+          <span class="skill-name">GIS Mapping</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">📝</span>
+          <span class="skill-name">Technical Reporting</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">🌱</span>
+          <span class="skill-name">Sustainable Agriculture</span>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">⚙️</span>
+          <span class="skill-name">Data Analytics</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title fade-in">My Projects</h2>
+      <div class="projects-grid fade-in-children">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-banner project-banner-1">
+            Crop Storage Infrastructure
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">1,000-Ton Crop Storage & Infrastructure Layout</h3>
+            <p class="project-desc">
+              Supervised the comprehensive structural installation execution of major engineering infrastructures for the Ministry of Industry, Agriculture, and Co-operatives, implementing storage systems saving 18,000 bags of crop assets from post-harvest deterioration.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Infrastructure Design</span>
+              <span class="tag">Project Management</span>
+              <span class="tag">AutoCAD</span>
+            </div>
+            <a href="#contact" class="project-link">View Technical Documentation →</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-banner project-banner-2">
+            Farm Mechanization Study
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Mini Tiller & Farm Mechanization Research</h3>
+            <p class="project-desc">
+              Research Lead analyzing rural survey configurations across regional municipalities, producing data reports detailing operational bottlenecks to support localized technical development panels and sustainable farming practices.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Field Survey</span>
+              <span class="tag">Data Collection</span>
+              <span class="tag">Technical Reporting</span>
+            </div>
+            <a href="#contact" class="project-link">View Research Profile →</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-banner project-banner-3">
+            Agricultural Systems
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Advanced Agricultural Systems Portfolio</h3>
+            <p class="project-desc">
+              Multi-axis engineering training modules completed within intensive laboratory programs hosted at IIT Kharagpur, designing scalable sustainable modern tools for agricultural infrastructure and farm mechanization.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Sustainable Technologies</span>
+              <span class="tag">Applied Engineering</span>
+              <span class="tag">R&D</span>
+            </div>
+            <a href="#contact" class="project-link">View Program Validation →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE SECTION ========== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title fade-in">Work Experience</h2>
+      <div class="timeline fade-in">
+
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Agricultural Engineer</h3>
+          <p class="timeline-meta">Ministry of Industry, Agriculture and Co-operatives, Koshi Province | May 2021 – March 2024</p>
+          <ul class="timeline-details">
+            <li>Led the design and supervision of agricultural infrastructure projects, including a 1,000-ton crop storage warehouse, helping farmers reduce post-harvest losses through safe storage of nearly 18,000 sacks of paddy</li>
+            <li>Developed technical plans for irrigation systems, livestock sheds, cold storage facilities, and agricultural machinery under government subsidy programs</li>
+            <li>Supervised installation and field implementation of livestock sheds, dairy equipment, and mechanized farming tools through on-site inspections and technical evaluations</li>
+          </ul>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Engineering Intern</h3>
+          <p class="timeline-meta">Bar Pipal Engineering Consultancy | September 2018 – April 2021</p>
+          <ul class="timeline-details">
+            <li>Supported civil and agricultural designs by conducting technical field assessments and precise surveying for irrigation and road projects</li>
+            <li>Accelerated project completion timelines by analyzing site data to prepare technical reports and progress records, streamlining communication between senior engineers, contractors, and stakeholders</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION SECTION ========== -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title fade-in">Education</h2>
+      <div class="timeline fade-in">
+
+        <!-- Education 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Master of Science in Data Analytics</h3>
+          <p class="timeline-meta">Binghamton University, State University of New York | Expected December 2028</p>
+          <p class="timeline-note">Transitioning into data analytics with a focus on geospatial data, Python-driven analysis, and applied statistical modeling.</p>
+        </div>
+
+        <!-- Education 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Master of Business Administration (MBA)</h3>
+          <p class="timeline-meta">KFA Business School, Lincoln University College | July 2024</p>
+          <p class="timeline-note">Specialized in management, organizational strategy, and business analytics.</p>
+        </div>
+
+        <!-- Education 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Bachelor of Agricultural Engineering</h3>
+          <p class="timeline-meta">Purwanchal Campus, Tribhuvan University | December 2021</p>
+          <p class="timeline-note">Core foundation in agricultural infrastructure, irrigation systems, farm mechanization, and field engineering.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="contact-content fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-text">
+          I'm always open to discussing new projects, analytical modeling ideas, or research workflows. Feel free to reach out!
+        </p>
+        <a href="mailto:alamsal@binghamton.edu" class="btn btn-primary">
+          <span>✉️</span> Say Hello
+        </a>
+        <div class="social-icons">
+          <!-- GitHub -->
+          <a href="https://github.com/alamsal26" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/anishlamsal" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <!-- Email -->
+          <a href="mailto:alamsal@binghamton.edu" class="social-icon" aria-label="Email">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built from scratch with curiosity & cold brew.</p>
+      <p>&copy; 2026 Anish Lamsal &middot; Binghamton, NY</p>
+    </div>
+  </footer>
+
+  <!-- ========== SCROLL TO TOP ========== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
